@@ -19,7 +19,7 @@ function PokemonList(){
         const pokemonData= await axios.all(pokemonResultPromise);           // Array of 20 pokemons details
         console.log(pokemonData);
 
-        // 
+        // Now iterate over data of each pokemon, and extract id, name, image, types
         const res = pokemonData.map((pokeData)=>{
             const pokemon= pokeData.data;
 
@@ -43,13 +43,18 @@ function PokemonList(){
     return ( 
         <>
             <div className="pokemon-list-wrapper">
-                <div>
+                <div className="pokemon-list-wrapper-heading">
                     Pokemon List
                 </div>
-                
-                {(isLoading)? 'Loading...':
-                    pokemonList.map((poke)=> <Pokemon name={poke.name} image={poke.image} key={poke.id} />)
-                }
+                <div className="pokemon-wrapper">
+                    {(isLoading)? 'Loading...':
+                        pokemonList.map((poke)=> <Pokemon name={poke.name} image={poke.image} key={poke.id} />)
+                    }
+                </div>
+                <div className="controls">
+                    <button>Prev</button>
+                    <button>Next</button>
+                </div>
             </div>
         </>
     )

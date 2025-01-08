@@ -1,10 +1,12 @@
+import './Pokemon.css'
+
 function Pokemon({name, image}){
     return (
         <>
-            <div>
-                <div>{name}</div>
-                <div>
-                    <img src={image} alt={name}/>
+            <div className='pokemon-items'>
+                <div className='pokemon-container'>
+                    <img className='pokemon-image' src={image} alt={name}/>
+                    <div className='pokemon-name'>{name}</div>
                 </div>
             </div>
         </>
