@@ -5,6 +5,10 @@
     width: 300px;
 }
 
+.link{
+   text-decoration: none;
+}
+
 .pokemon-image{
     height: 100px;
     max-height: 60%;
@@ -22,6 +26,7 @@
  .pokemon-name{
     font-size: 1.2rem;
     letter-spacing: 0.6rem;
+    color: black;
  }
 
  .pokemon-items:hover{

@@ -1,0 +1,118 @@
+.pokemon-details-wrapper{
+    padding: 1rem;
+    background-color: rgb(213, 231, 231);
+    border-radius: 2rem;
+    display: flex;
+    gap: 2rem;
+    margin-top: 4rem;
+}
+
+.pokemon-details-image{
+    display: flex;
+    margin: 0 auto;
+    max-height: 300px;
+}
+
+.pokemon-details-wrapper-inside{
+    margin: auto;
+}
+.pokemon-details-name{
+    font-size: xx-large;
+}
+
+.pokemon-details-types
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top:1rem;
+}
+.grass{
+    padding: 0.2rem 0.6rem;
+    background-color: green;
+    border-radius: 0.6rem;
+    border: 1px solid black;
+    width: 60px;
+    text-align: center;
+}
+.poison{
+    padding: 0.2rem 0.6rem;
+    background-color: purple;
+    border-radius: 0.6rem;
+    border: 1px solid black;
+    width: 60px;
+    text-align: center;
+}
+.fire{
+    padding: 0.2rem 0.6rem;
+    background-color: rgb(255, 102, 0);
+    border-radius: 0.6rem;
+    border: 1px solid black;
+    width: 60px;
+    text-align: center;
+}
+.water{
+    padding: 0.2rem 0.6rem;
+    background-color: rgb(24, 123, 228);
+    border-radius: 0.6rem;
+    border: 1px solid black;
+    width: 60px;
+    text-align: center;
+}
+.dragon{
+    padding: 0.2rem 0.6rem;
+    background-color: blue;
+    border-radius: 0.6rem;
+    border: 1px solid black;
+    width: 60px;
+    text-align: center;
+}
+.fighting{
+    padding: 0.2rem 0.6rem;
+    background-color: red;
+    border-radius: 0.6rem;
+    border: 1px solid black;
+    width: 60px;
+    text-align: center;
+}
+.bug{
+    padding: 0.2rem 0.6rem;
+    background-color: greenyellow;
+    border-radius: 0.6rem;
+    border: 1px solid black;
+    width: 60px;
+    text-align: center;
+}
+.rock{
+    padding: 0.2rem 0.6rem;
+    background-color: slateblue;
+    border-radius: 0.6rem;
+    border: 1px solid black;
+    width: 60px;
+    text-align: center;
+}
+.fairy{
+    padding: 0.2rem 0.6rem;
+    background-color: pink;
+    border-radius: 0.6rem;
+    border: 1px solid black;
+    width: 60px;
+    text-align: center;
+}
+.normal{
+    padding: 0.2rem 0.6rem;
+    background-color: gray;
+    border-radius: 0.6rem;
+    border: 1px solid black;
+    width: 60px;
+    text-align: center;
+}
+.flying{
+        padding: 0.2rem 0.6rem;
+        background-color: rgb(147, 195, 254);
+        border-radius: 0.6rem;
+        border: 1px solid black;
+        width: 60px;
+        text-align: center;
+}
